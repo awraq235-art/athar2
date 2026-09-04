@@ -1,0 +1,6 @@
+{
+  "name": "ATHAR Platform",
+  "description": "منصة جمعية أثر التعاونية الزراعية متعددة الأغراض - ترخيص رقم (87) لعام 2019 صادر من وزارة الشؤون الاجتماعية والعمل",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

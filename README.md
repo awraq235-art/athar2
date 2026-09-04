@@ -1,11 +1,33 @@
-<div align="center">
+# ATHAR Platform
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+جمعية أثر التعاونية الزراعية متعددة الأغراض
 
-  <h1>Built with AI Studio</h2>
+## ATHAR V1
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Production-oriented agricultural digital platform.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Core modules
+- Knowledge
+- Academy
+- Services
+- Products
+- Unified Search
+- Notifications
+- Authentication
+- User Dashboard
+- Admin
+- Analytics
+- Security & Audit
 
-</div>
+## Architecture
+
+Modular Monolith + Clear Service Boundaries.
+
+## Development
+
+```bash
+pnpm install
+pnpm dev
+```
+
+See `docs/` for architecture, API, database, security, deployment and release documentation.

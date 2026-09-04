@@ -1,0 +1,20 @@
+{
+  "name": "athar-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web && cp -r apps/web/dist dist",
+    "test": "turbo test",
+    "lint": "tsc --noEmit --project apps/web/tsconfig.json",
+    "typecheck": "tsc --noEmit --project apps/web/tsconfig.json"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0"
+  }
+}
